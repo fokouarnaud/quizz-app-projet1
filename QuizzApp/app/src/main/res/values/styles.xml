@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F38181</item>
+        <item name="colorPrimaryDark">#625772</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">#F38181</item>
+    </style>
+
+    <!-- style for global layout -->
+    <style name="GlobalLayout">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:paddingBottom">48dp</item>
+        <item name="android:background">#fff</item>
+
+    </style>
+
+    <!-- style for Question component layout-->
+    <style name="QuestionComponentLayout">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">32dp</item>
+
+    </style>
+
+    <!-- style for layout question label-->
+    <style name="QuestionLabelLayout">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <!-- style for text question label -->
+    <style name="LabelQuestion">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- style for image question label -->
+    <style name="ImageLabelQuestion">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+
+    </style>
+
+    <!-- style for text question content -->
+    <style name="ContentQuestion">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+
+    </style>
+
+    <!-- style for checkbox answer -->
+    <style name="radioAnswer">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- style for checkbox answer -->
+    <style name="ChecboxAnswer">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- style for divide bar  -->
+    <style name="ViewDivide">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#808080</item>
+    </style>
+
+    <!-- style for button soumettre  -->
+    <style name="BtnSomettre">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name=" android:layout_gravity">center</item>
+        <item name=" android:android:textAllCaps">true</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name=" android:textColor">#fff</item>
+        <item name="android:background">#F38181</item>
+
+    </style>
+
+</resources>

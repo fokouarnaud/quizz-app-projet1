@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quizz App</string>
+    <string name="question_one_label">Question 1</string>
+    <string name="question_one_content">D\'après Simon SINEK, ce qui fait que les leaders sont les
+        leaders c\'est leur capacité à:
+    </string>
+    <string name="question_one_answer_one">communiquer sur le quoi;</string>
+    <string name="question_one_answer_two">communiquer sur le comment;</string>
+    <string name="question_one_answer_three">communiquer sur le pourquoi.</string>
+    <string name="question_two_label">Question 2</string>
+    <string name="question_two_content">Lors d\'une présentation, une démarche efficace serai
+        d\'emblé de:</string>
+    <string name="question_two_answer_one">faire adhérer à une conviction ou une vision annoncée;
+    </string>
+    <string name="question_two_answer_two">chercher à convaincre par des arguments purements
+        rationnels;
+    </string>
+    <string name="question_two_answer_three">chercher à convaincre par des effets éblouissants.
+    </string>
+    <string name="question_three_label">Question 3</string>
+    <string name="question_three_content">Sélectionner 2 autres principes à appliquer lors d\'une
+        présentation:
+    </string>
+    <string name="question_three_answer_one">aligner ses émotions avec son discours;</string>
+    <string name="question_three_answer_two">défendre plusieurs messages;</string>
+    <string name="question_three_answer_three">Se focaliser sur un seul message.</string>
+    <string name="question_four_label">Question 4</string>
+    <string name="question_four_content">Sélectionner 2 critères pour avoir de l\'impact auprès
+        d\'un public:
+    </string>
+    <string name="question_four_answer_one">attirer l\'attention;</string>
+    <string name="question_four_answer_two">être crédible;</string>
+    <string name="question_four_answer_three">être mémorisé le moins possible.</string>
+
+    <string name="question_five_label">Question 5</string>
+    <string name="question_five_content">Quel est le nom de l\'auteur mentionné en début de ce
+        questionnaire?
+    </string>
+    <string name="question_five_placeholder">Entrez un nom</string>
+    <string name="btn_soumettre_name">Soumettre</string>
+
+</resources>

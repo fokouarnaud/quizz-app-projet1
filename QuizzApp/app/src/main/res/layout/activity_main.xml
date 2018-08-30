@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/GlobalLayout">
+
+        <LinearLayout style="@style/QuestionComponentLayout">
+
+            <RelativeLayout style="@style/QuestionLabelLayout">
+
+                <TextView
+                    style="@style/LabelQuestion"
+                    android:text="@string/question_one_label" />
+
+                <ImageView
+                    android:id="@+id/photo_image_view"
+                    style="@style/ImageLabelQuestion"
+                    android:contentDescription="@string/question_one_label"
+                    android:src="@drawable/ic_radio_button_checked_black_24dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/ContentQuestion"
+                android:text="@string/question_one_content" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_one_answer_one_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionOneClicked"
+                    android:text="@string/question_one_answer_one" />
+
+                <RadioButton
+                    android:id="@+id/question_one_answer_two_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionOneClicked"
+                    android:text="@string/question_one_answer_two" />
+
+                <RadioButton
+                    android:id="@+id/question_one_answer_three_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionOneClicked"
+                    android:text="@string/question_one_answer_three" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <View style="@style/ViewDivide" />
+
+        <LinearLayout style="@style/QuestionComponentLayout">
+
+
+            <RelativeLayout style="@style/QuestionLabelLayout">
+
+                <TextView
+                    style="@style/LabelQuestion"
+                    android:text="@string/question_two_label" />
+
+                <ImageView
+                    style="@style/ImageLabelQuestion"
+                    android:contentDescription="@string/question_two_label"
+                    android:src="@drawable/ic_radio_button_checked_black_24dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/ContentQuestion"
+                android:text="@string/question_two_content" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_two_answer_one_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionTwoClicked"
+                    android:text="@string/question_two_answer_one" />
+
+                <RadioButton
+                    android:id="@+id/question_two_answer_two_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionTwoClicked"
+                    android:text="@string/question_two_answer_two" />
+
+                <RadioButton
+                    android:id="@+id/question_two_answer_three_radio_button"
+                    style="@style/radioAnswer"
+                    android:onClick="onRadioButtonQuestionTwoClicked"
+                    android:text="@string/question_two_answer_three" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/ViewDivide" />
+
+        <LinearLayout style="@style/QuestionComponentLayout">
+
+
+            <RelativeLayout style="@style/QuestionLabelLayout">
+
+                <TextView
+                    style="@style/LabelQuestion"
+                    android:text="@string/question_three_label" />
+
+                <ImageView
+                    style="@style/ImageLabelQuestion"
+                    android:contentDescription="@string/question_three_label"
+                    android:src="@drawable/ic_check_box_black_24dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/ContentQuestion"
+                android:text="@string/question_three_content" />
+
+            <CheckBox
+                android:id="@+id/question_three_answer_one_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionThreeClicked"
+                android:text="@string/question_three_answer_one" />
+
+            <CheckBox
+                android:id="@+id/question_three_answer_two_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionThreeClicked"
+                android:text="@string/question_three_answer_two" />
+
+            <CheckBox
+                android:id="@+id/question_three_answer_three_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionThreeClicked"
+                android:text="@string/question_three_answer_three" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewDivide" />
+
+        <LinearLayout style="@style/QuestionComponentLayout">
+
+            <RelativeLayout style="@style/QuestionLabelLayout">
+
+                <TextView
+                    style="@style/LabelQuestion"
+                    android:text="@string/question_four_label" />
+
+                <ImageView
+                    style="@style/ImageLabelQuestion"
+                    android:contentDescription="@string/question_four_label"
+                    android:src="@drawable/ic_check_box_black_24dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/ContentQuestion"
+                android:text="@string/question_four_content" />
+
+            <CheckBox
+                android:id="@+id/question_four_answer_one_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionFourClicked"
+                android:text="@string/question_four_answer_one" />
+
+            <CheckBox
+                android:id="@+id/question_four_answer_two_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionFourClicked"
+                android:text="@string/question_four_answer_two" />
+
+            <CheckBox
+                android:id="@+id/question_four_answer_three_checkbox"
+                style="@style/ChecboxAnswer"
+                android:onClick="onCheckboxQuestionFourClicked"
+                android:text="@string/question_four_answer_three" />
+
+
+        </LinearLayout>
+
+        <View style="@style/ViewDivide" />
+
+        <LinearLayout style="@style/QuestionComponentLayout">
+
+            <RelativeLayout style="@style/QuestionLabelLayout">
+
+                <TextView
+                    style="@style/LabelQuestion"
+                    android:text="@string/question_five_label" />
+
+                <ImageView
+                    style="@style/ImageLabelQuestion"
+                    android:contentDescription="@string/question_five_label"
+                    android:src="@drawable/ic_short_text_black_24dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                style="@style/ContentQuestion"
+                android:text="@string/question_five_content" />
+
+            <EditText
+                android:id="@+id/question_five_answer_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/question_five_placeholder"
+                android:inputType="textCapSentences" />
+
+
+        </LinearLayout>
+
+        <View style="@style/ViewDivide" />
+
+        <Button
+
+            android:id="@+id/submit_button"
+            style="@style/BtnSomettre"
+            android:drawableEnd="@drawable/ic_send_black_24dp"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:onClick="onButtonSubmitClicked"
+            android:text="@string/btn_soumettre_name" />
+
+
+    </LinearLayout>
+
+</ScrollView>
